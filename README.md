@@ -1,54 +1,103 @@
-# React + TypeScript + Vite
+# Blog Pessoal - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto frontend desenvolvido como parte de um sistema de blog pessoal, onde é possível realizar cadastro de usuários, criação e gerenciamento de postagens e temas.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Descrição
 
-## Expanding the ESLint configuration
+O **Blog Pessoal - Frontend** é uma aplicação React que permite aos usuários se cadastrarem, fazerem login e interagirem com postagens e temas. A aplicação consome uma API backend previamente desenvolvida e oferece funcionalidades como:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Cadastro e login de usuários  
+- Criação, edição e exclusão de postagens  
+- Cadastro, edição e exclusão de temas  
+- Visualização de postagens por tema  
+- Interface responsiva e intuitiva com navbar e footer fixos
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🚀 Tecnologias utilizadas
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Router DOM](https://reactrouter.com/)
+- [Axios](https://axios-http.com/)
+- [Phosphor Icons](https://phosphoricons.com/)
+- [React Loader Spinner](https://mhnpd.github.io/react-loader-spinner/)
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+---
+
+## 💻 Como executar o projeto localmente
+
+### Pré-requisitos
+
+- [Node.js](https://nodejs.org/) (recomendado: versão 18+)
+- [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/) instalado
+
+### Passo a passo
+
+1. Clone este repositório:  
+   `git clone https://github.com/araujokahh/blog_pessoal_frontend2.git`
+
+2. Acesse a pasta do projeto:  
+   `cd blog_pessoal_frontend2`
+
+3. Instale as dependências:  
+   Com npm: `npm install`  
+   Ou com yarn: `yarn`
+
+4. Execute o projeto:  
+   Com npm: `npm run dev`  
+   Ou com yarn: `yarn dev`
+
+5. Acesse no navegador:  
+   `http://localhost:5173`
+
+---
+
+## 🧩 Funcionalidades
+
+- ✅ Cadastro de novos usuários  
+- ✅ Login de usuários  
+- ✅ Cadastro de temas  
+- ✅ Cadastro de postagens com vínculo a temas  
+- ✅ Edição e exclusão de temas e postagens  
+- ✅ Visualização de todas as postagens e temas  
+- ✅ Navegação intuitiva com barra de navegação (navbar)  
+- ✅ Página inicial com as postagens já realizadas  
+
+---
+
+## 🌐 Deploy
+
+A aplicação está disponível online no seguinte link:  
+👉 [**Acessar projeto online**](#) <!-- Substitua quando tiver o link do deploy --> (... EM BREVE ...)
+
+---
+
+## 📸 Imagens (... EM BREVE ...)
+
+<!-- Substitua pelos prints do seu projeto -->
+| Página de Login | Página Inicial | Lista de Postagens |
+|-----------------|----------------|---------------------|
+| ![Login](#)     | ![Home](#)     | ![Postagens](#)     |
+
+---
+
+## 👩‍💻 Sobre o projeto
+
+Este projeto foi desenvolvido para fins de **aprendizado** como parte de um Bootcamp de desenvolvimento Full Stack com Java e React pela Generation Brasil. O frontend consome uma API REST criada anteriormente.
+
+Funcionalidades como paginação, busca e validação de formulários podem ser implementadas como **melhorias futuras**.
+
+---
+
+## 👥 Autoria
+
+Desenvolvido por **Karina Camargo Araujo** como parte dos estudos em desenvolvimento de software.  
+Conecte-se comigo através do [LinkedIn](https://www.linkedin.com/in/karina-camargo-araujo/) 
+
+---
+
