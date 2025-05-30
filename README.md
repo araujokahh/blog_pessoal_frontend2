@@ -59,7 +59,8 @@ O **Blog Pessoal - Frontend** é uma aplicação React que permite aos usuários
 
 ## 🧩 Funcionalidades
 
-- ✅ Cadastro de novos usuários  
+- ✅ Cadastro de novos usuários
+- ✅ Visualização de perfil
 - ✅ Login de usuários  
 - ✅ Cadastro de temas  
 - ✅ Cadastro de postagens com vínculo a temas  
@@ -73,24 +74,23 @@ O **Blog Pessoal - Frontend** é uma aplicação React que permite aos usuários
 ## 🌐 Deploy
 
 A aplicação está disponível online no seguinte link:  
-👉 [**Acessar projeto online**](#) <!-- Substitua quando tiver o link do deploy --> (... EM BREVE ...)
+👉 [**Acessar projeto online**](https://blog-pessoal-frontend2-git-main-karinas-projects-4895685a.vercel.app/) <!-- Substitua quando tiver o link do deploy --> 
 
 ---
-
-## 📸 Imagens (... EM BREVE ...)
+<!-- ## 📸 Imagens (... EM BREVE ...) -->
 
 <!-- Substitua pelos prints do seu projeto -->
-| Página de Login | Página Inicial | Lista de Postagens |
+<!--| Página de Login | Página Inicial | Lista de Postagens |
 |-----------------|----------------|---------------------|
 | ![Login](#)     | ![Home](#)     | ![Postagens](#)     |
-
+-->
 ---
 
 ## 👩‍💻 Sobre o projeto
 
 Este projeto foi desenvolvido para fins de **aprendizado** como parte de um Bootcamp de desenvolvimento Full Stack com Java e React pela Generation Brasil. O frontend consome uma API REST criada anteriormente.
 
-Funcionalidades como paginação, busca e validação de formulários podem ser implementadas como **melhorias futuras**.
+Novad funcionalidades podem ser implementadas como **melhorias futuras**.
 
 ---
 
